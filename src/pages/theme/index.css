@@ -1,0 +1,25 @@
+.theme-page {
+   height: 100vh;
+   font-family: serif;
+   background: linear-gradient(to bottom, var(--bg1), var(--bg2));
+   color: var(--text-color);
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+   font-size: 2em;
+   padding-top: 1em;
+}
+
+.theme-page h1 {
+  margin-top: 2em;
+}
+
+.select-theme {
+  font-size: inherit;
+  padding: 5px 20px;
+  background: lightslategray;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
